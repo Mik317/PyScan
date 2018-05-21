@@ -5,3 +5,5 @@ It provide a very beautiful Web-based panel (written with `CherryPy`+`Jinja2` th
 
 Every session is characterized by a title, the date, the author and a simple description, and will be memorized in a `SQLite` db.
 You can use sessions from the Web panel or from the Console tool.
+
+If you use the tool from the console-based view, the db will automatically refreshed with new sessions also in web-based view, for maximum comfort.
