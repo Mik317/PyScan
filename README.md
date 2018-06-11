@@ -10,12 +10,12 @@ You can use sessions for see infos from the web-panel.
 
 # Console Python Vuln
 
-Included with the tool, there is a very simple an useful tool like `msf` : `cpv.py`, that you can use for see the sessions and some infos about they.
+Included with the tool, there is a very simple an useful tool like `msf` : `cpv.py`, that you can use for see the sessions and some infos about them.
 
 # Modules
 
-Now, the scanner support all the most important vulnerabilities, and test them using some modules that injects payload.
-The payloads are very simple and are utilized for see how the web application interact ith the given input, while the last payload, is an `out of band` payload, that use a request to a simple web server that you launch (`CherryPy` powered) for obtain the assurrance that the web application is vuln to the chosen attack.
+Now, the scanner supports all the most important vulnerabilities, and test them using some modules that inject payloads.
+The payloads are very simple and are utilized for see how the web application interact with the given input, while the last payload, is an `out of band` payload, that use a request to a simple web server that you launch (`CherryPy` powered) for obtain the assurrance that the web application is vuln to the chosen attack.
 
 A simple example of this technique is shown in the following code section:
 ```html 
@@ -37,7 +37,7 @@ These payloads show the same technique, but testing the web application for XSS 
 
 The scanner provide a very simple and useful algorithm of machine learning, that using the collected data, search new input fields or simply other infos that can be decisive for find a vuln.
 
-The model, for now, is in developing, and must do some pratice, but is a good tool that I want implement.
+The model, for now, is in developing, and must do some pratice, but is a good function that I want implement.
 
 # Utilities
 
