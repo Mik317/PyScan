@@ -35,9 +35,9 @@ These payloads show the same technique, but testing the web application for XSS 
 
 # AI (Artificial Intelligence)
 
-The scanner provide a very simple and useful algorithm of machine learning, that using the collected data, search new input fields or simply other infos that can be decisive for find a vuln.
+The scanner provide a very simple and useful algorithm of machine learning, that using the collected data, search new ways for find vulnerable targets and escape WAFs.
 
-The model, for now, is in developing, and must do some pratice, but is a good function that I want implement.
+The model, for now, is in developing, and must do some practice, but is a good function that I want implement.
 
 # Utilities
 
